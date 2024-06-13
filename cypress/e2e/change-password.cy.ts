@@ -1,5 +1,5 @@
 describe('Change Password Feature', () => {
-  const originalUsername = 'karltheman';
+  const originalUsername = 'jackb';
   const originalPassword = 'password';
   const newPassword = '123';
 
