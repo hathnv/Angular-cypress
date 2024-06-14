@@ -4,7 +4,7 @@ Thank you for choosing to take our Angular skills test!
 
 Please find instructions on how to complete the test [here](https://discord.gg/DVaYBVUh)
 
-------------------------------------------------------------------------------------
+---
 
 # MyExams
 
@@ -34,13 +34,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-
-
 ## API requests and Service
 
 All the API calls and Authentication maneuvers are found in `AuthService` which is injectable in components and any other service.
 
-
 ## Modules
 
 There are only two modules throughout this app, the `AppModule` module and the `AppRoutingModule`. The app module is for all the declarations and imports and the routing module for all the routing.
+
+## Test App
+
+Cypress 17 requires Node.js version 16.14.0 or higher
+Run `npm start` to using web on dev environment
+Run `npm run server` to run json server
+Run `npm run cy_test` to open cypress & execute the end-to-end tests
+Select the .cy.ts files to run the tests
